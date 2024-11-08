@@ -83,7 +83,7 @@ app.post("/send-email", upload, async (req, res) => {
     from: process.env.EMAIL_USER, // Your email
     to: email,
     subject: "Thank You for Contacting Us",
-    text: `Dear ${name},\n\nThank you for reaching out! We have received your message and will get back to you shortly.\n\nBest regards,\nYour Company Name`,
+    text: `Dear ${name},\n\nThank you for reaching out! We have received your message and will get back to you shortly.\n\nBest regards,\nSri Sai Rice Industries`,
   };
 
   try {
